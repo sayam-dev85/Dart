@@ -1,0 +1,18 @@
+1. Data Types in Dart
+
+Dart is a statically typed language, which means every variable has a type. Types define what kind of values a variable
+can hold.
+
+Common Dart data types include:
+| **Data Type** | **Description**                                           | **Example**                            |
+| ------------- | --------------------------------------------------------- | -------------------------------------- |
+| `int`         | Integer numbers (whole numbers)                           | `int age = 25;`                        |
+| `double`      | Floating-point numbers (decimals)                         | `double pi = 3.14;`                    |
+| `num`         | Either `int` or `double`                                  | `num x = 10; num y = 3.5;`             |
+| `String`      | Text                                                      | `String name = "Alice";`               |
+| `bool`        | Boolean (`true` or `false`)                               | `bool isLoggedIn = true;`              |
+| `var`         | Dart infers the type automatically                        | `var name = "Bob";`                    |
+| `dynamic`     | Can hold **any type**, but type safety is lost            | `dynamic value = 10; value = "hello";` |
+| `const`       | Compile-time constant value                               | `const pi = 3.1416;`                   |
+| `final`       | Runtime constant, value can’t change after initialization | `final name = "Alice";`                |
+
