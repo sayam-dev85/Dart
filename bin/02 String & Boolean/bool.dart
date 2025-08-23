@@ -5,10 +5,18 @@ What is bool?
     false -> False
    Boolean is mainly use in conditions and decisions.
  */
-void main(){
-  bool isStudent = true;
-  bool isTeacher = false;
+// void main(){
+//   bool isStudent = true;
+//   bool isTeacher = false;
+//
+//   print(isStudent);
+//   print(isTeacher);
+// }
 
-  print(isStudent);
-  print(isTeacher);
+void main (){
+  String name = "Abu Sayam";
+  bool isStudent = true;
+
+  print("Name: $name");
+  print("Is Student: $isStudent");
 }
